@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5C85A356-7094-490D-84C3-AC3B8C078497}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XJWZCatering.DAL</RootNamespace>
+    <AssemblyName>XJWZCatering.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XJWZCatering.CommonBasic">
+      <HintPath>..\WServer\bins\XJWZCatering.CommonBasic.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dalchoorder.cs" />
+    <Compile Include="dalchoorderdetail.cs" />
+    <Compile Include="dalchoorderdishes.cs" />
+    <Compile Include="dalCoupon.cs" />
+    <Compile Include="daldishes.cs" />
+    <Compile Include="dalDisheType.cs" />
+    <Compile Include="dalForm.cs" />
+    <Compile Include="dalHelp.cs" />
+    <Compile Include="dalmemcard.cs" />
+    <Compile Include="dalOrder.cs" />
+    <Compile Include="dalStore.cs" />
+    <Compile Include="dalWXComplaints.cs" />
+    <Compile Include="dalWXReward.cs" />
+    <Compile Include="dalWX_busDestine.cs" />
+    <Compile Include="dalWX_busWait.cs" />
+    <Compile Include="dalWX_members_wx.cs" />
+    <Compile Include="dalWX_reserveremake.cs" />
+    <Compile Include="dalWX_setlineUp.cs" />
+    <Compile Include="dalWX_setreservation.cs" />
+    <Compile Include="dalWX_settime.cs" />
+    <Compile Include="dalWX_stoset.cs" />
+    <Compile Include="dalWX_usermessage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="store\daloperatelog.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{ea22554f-6121-4f8a-9d78-25bdbd98583e}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
