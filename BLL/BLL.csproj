@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4CCE8A69-B1A4-40F0-9BFB-9A7AFCB5A7A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XJWZCatering.BLL</RootNamespace>
+    <AssemblyName>XJWZCatering.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XJWZCatering.CommonBasic">
+      <HintPath>..\WServer\bins\XJWZCatering.CommonBasic.dll</HintPath>
+    </Reference>
+    <Reference Include="XJWZCatering.WXHelper">
+      <HintPath>..\WServer\bins\XJWZCatering.WXHelper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bllBase.cs" />
+    <Compile Include="bllchoorder.cs" />
+    <Compile Include="bllchoorderdetail.cs" />
+    <Compile Include="bllchoorderdishes.cs" />
+    <Compile Include="bllCoupon.cs" />
+    <Compile Include="blldishes.cs" />
+    <Compile Include="bllDisheType.cs" />
+    <Compile Include="bllForm.cs" />
+    <Compile Include="bllHelp.cs" />
+    <Compile Include="bllmemcard.cs" />
+    <Compile Include="bllOrder.cs" />
+    <Compile Include="bllPaging.cs" />
+    <Compile Include="bllReward.cs" />
+    <Compile Include="bllStore.cs" />
+    <Compile Include="bllWXComplaints.cs" />
+    <Compile Include="bllWX_busDestine.cs" />
+    <Compile Include="bllWX_busWait.cs" />
+    <Compile Include="bllWX_members_wx.cs" />
+    <Compile Include="bllWX_reserveremake.cs" />
+    <Compile Include="bllWX_setlineUp.cs" />
+    <Compile Include="bllWX_setreservation.cs" />
+    <Compile Include="bllWX_settime.cs" />
+    <Compile Include="bllWX_stoset.cs" />
+    <Compile Include="bllWX_usermessage.cs" />
+    <Compile Include="dalWX_stoset.cs" />
+    <Compile Include="LoginUniqueness.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="systemset\blloperatelog.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{5c85a356-7094-490d-84c3-ac3b8c078497}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{ea22554f-6121-4f8a-9d78-25bdbd98583e}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
