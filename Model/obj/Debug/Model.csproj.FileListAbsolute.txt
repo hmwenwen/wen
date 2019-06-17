@@ -1,0 +1,13 @@
+D:\转盘\trunk\09Code\XJWZWx\Model\bin\Debug\XJWZCatering.Model.dll
+D:\转盘\trunk\09Code\XJWZWx\Model\bin\Debug\XJWZCatering.Model.pdb
+D:\转盘\trunk\09Code\XJWZWx\Model\bin\Debug\XJWZCatering.CommonBasic.dll
+D:\转盘\trunk\09Code\XJWZWx\Model\bin\Debug\LitJson.dll
+D:\转盘\trunk\09Code\XJWZWx\Model\obj\Debug\XJWZCatering.Model.dll
+D:\转盘\trunk\09Code\XJWZWx\Model\obj\Debug\XJWZCatering.Model.pdb
+D:\链众\trunk\09Code\XJWZWx\Model\bin\Debug\XJWZCatering.Model.dll
+D:\链众\trunk\09Code\XJWZWx\Model\bin\Debug\XJWZCatering.Model.pdb
+D:\链众\trunk\09Code\XJWZWx\Model\bin\Debug\XJWZCatering.CommonBasic.dll
+D:\链众\trunk\09Code\XJWZWx\Model\bin\Debug\LitJson.dll
+D:\链众\trunk\09Code\XJWZWx\Model\obj\Debug\XJWZCatering.Model.dll
+D:\链众\trunk\09Code\XJWZWx\Model\obj\Debug\XJWZCatering.Model.pdb
+D:\链众\trunk\09Code\XJWZWx\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
