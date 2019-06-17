@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script type="text/javascript">
+        alert("a");
+        Request = {
+            QueryString: function (item) {
+                var svalue = location.search.match(new RegExp("[\?\&]" + item + "=([^\&]*)(\&?)", "i"));
+                return svalue ? svalue[1] : svalue;
+            }
+        }
+
+        $(function () {
+            
+            var code = Request.QueryString("openid");
+            alert(code);
+        });
+    </script>
+</head>
+
+<body>
+    <h3>传递openid</h3>
+</body>
+</html>

@@ -1,0 +1,67 @@
+2019-04-03 14:43:04.878 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxbb84b3b22afa371a]]></appid><attach><![CDATA[]]></attach><body><![CDATA[会员充值]]></body><goods_tag><![CDATA[]]></goods_tag><mch_id><![CDATA[1504594711]]></mch_id><nonce_str><![CDATA[9aa549b9d4e244bbb5556b9040c6c5a4]]></nonce_str><notify_url><![CDATA[http://wx.link-public.com//WServer/WxServer/WxPayResult.aspx]]></notify_url><openid><![CDATA[]]></openid><out_trade_no><![CDATA[150459471120190403144304442]]></out_trade_no><sign><![CDATA[78321C3DCCD871ACEF45806FC02BA388]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20190403145304]]></time_expire><time_start><![CDATA[20190403144304]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2019-04-03 14:43:05.291 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxbb84b3b22afa371a]]></appid>
+<mch_id><![CDATA[1504594711]]></mch_id>
+<nonce_str><![CDATA[8BcInWhiIqDq5Xuf]]></nonce_str>
+<sign><![CDATA[A6A47D73C0F70CF1B91D6A97B560D22D]]></sign>
+<result_code><![CDATA[FAIL]]></result_code>
+<err_code><![CDATA[PARAM_ERROR]]></err_code>
+<err_code_des><![CDATA[JSAPI支付必须传openid]]></err_code_des>
+</xml>
+2019-04-03 14:43:29.668 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxbb84b3b22afa371a]]></appid><attach><![CDATA[]]></attach><body><![CDATA[会员充值]]></body><goods_tag><![CDATA[]]></goods_tag><mch_id><![CDATA[1504594711]]></mch_id><nonce_str><![CDATA[d8b518e78c0740c0b7335ae4176944e8]]></nonce_str><notify_url><![CDATA[http://wx.link-public.com//WServer/WxServer/WxPayResult.aspx]]></notify_url><openid><![CDATA[]]></openid><out_trade_no><![CDATA[15045947112019040314432922]]></out_trade_no><sign><![CDATA[04923C91750161CADBC3D79C50AD49D4]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20190403145329]]></time_expire><time_start><![CDATA[20190403144329]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2019-04-03 14:43:29.936 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxbb84b3b22afa371a]]></appid>
+<mch_id><![CDATA[1504594711]]></mch_id>
+<nonce_str><![CDATA[o8LU6YlDJiN9g6rP]]></nonce_str>
+<sign><![CDATA[FF52306A6CA585C3CEEB622E36723645]]></sign>
+<result_code><![CDATA[FAIL]]></result_code>
+<err_code><![CDATA[PARAM_ERROR]]></err_code>
+<err_code_des><![CDATA[JSAPI支付必须传openid]]></err_code_des>
+</xml>
+2019-04-03 14:45:31.734 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxbb84b3b22afa371a]]></appid><attach><![CDATA[]]></attach><body><![CDATA[会员充值]]></body><goods_tag><![CDATA[]]></goods_tag><mch_id><![CDATA[1504594711]]></mch_id><nonce_str><![CDATA[7c3759a9bd5342cbb9a63d2583510983]]></nonce_str><notify_url><![CDATA[http://wx.link-public.com//WServer/WxServer/WxPayResult.aspx]]></notify_url><openid><![CDATA[oNt8Y0uIBiThX48KWauequE4jkts]]></openid><out_trade_no><![CDATA[150459471120190403144531659]]></out_trade_no><sign><![CDATA[3A4211EF5EB0B86FA96E62712F2C80F7]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20190403145531]]></time_expire><time_start><![CDATA[20190403144531]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2019-04-03 14:45:32.003 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxbb84b3b22afa371a]]></appid>
+<mch_id><![CDATA[1504594711]]></mch_id>
+<nonce_str><![CDATA[M37o11Z8W6yMmteH]]></nonce_str>
+<sign><![CDATA[B02DAC5AACFCAD548552A3E02DD0AECB]]></sign>
+<result_code><![CDATA[FAIL]]></result_code>
+<err_code><![CDATA[SYSTEMERROR]]></err_code>
+<err_code_des><![CDATA[system error]]></err_code_des>
+</xml>
+2019-04-03 14:46:22.243 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxbb84b3b22afa371a]]></appid><attach><![CDATA[]]></attach><body><![CDATA[会员充值]]></body><goods_tag><![CDATA[]]></goods_tag><mch_id><![CDATA[1504594711]]></mch_id><nonce_str><![CDATA[24f693b32ec74e8bbe83a67c74622c1e]]></nonce_str><notify_url><![CDATA[http://wx.link-public.com//WServer/WxServer/WxPayResult.aspx]]></notify_url><openid><![CDATA[oNt8Y0uIBiThX48KWauequE4jkts]]></openid><out_trade_no><![CDATA[150459471120190403144617635]]></out_trade_no><sign><![CDATA[CA62A3E5522E0DAFC3F04E68891FB640]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20190403145620]]></time_expire><time_start><![CDATA[20190403144619]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2019-04-03 14:46:22.539 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxbb84b3b22afa371a]]></appid>
+<mch_id><![CDATA[1504594711]]></mch_id>
+<nonce_str><![CDATA[k2yXCvD1pyCG2WpI]]></nonce_str>
+<sign><![CDATA[E014A2E603CC3C0EFB93B4AA51122F9F]]></sign>
+<result_code><![CDATA[FAIL]]></result_code>
+<err_code><![CDATA[SYSTEMERROR]]></err_code>
+<err_code_des><![CDATA[system error]]></err_code_des>
+</xml>
+2019-04-03 14:50:11.943 DEBUG WxPayAPI.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2019-04-03 15:00:35.898 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxbb84b3b22afa371a]]></appid><attach><![CDATA[]]></attach><body><![CDATA[会员充值]]></body><goods_tag><![CDATA[]]></goods_tag><mch_id><![CDATA[1504594711]]></mch_id><nonce_str><![CDATA[48e5a9fcb5d44d56853d724fdc02a5d7]]></nonce_str><notify_url><![CDATA[http://wx.link-public.com//WServer/WxServer/WxPayResult.aspx]]></notify_url><openid><![CDATA[oNt8Y0uIBiThX48KWauequE4jkts]]></openid><out_trade_no><![CDATA[150459471120190403145944153]]></out_trade_no><sign><![CDATA[B9128F95931B071B8F3E9EAD3B38869E]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20190403150951]]></time_expire><time_start><![CDATA[20190403145951]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2019-04-03 15:00:37.575 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxbb84b3b22afa371a]]></appid>
+<mch_id><![CDATA[1504594711]]></mch_id>
+<nonce_str><![CDATA[4FXyWhuFm8tiDQeD]]></nonce_str>
+<sign><![CDATA[3BD31F3BE9D186BED524E19018E55DA6]]></sign>
+<result_code><![CDATA[FAIL]]></result_code>
+<err_code><![CDATA[SYSTEMERROR]]></err_code>
+<err_code_des><![CDATA[system error]]></err_code_des>
+</xml>
+2019-04-03 15:02:56.418 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxbb84b3b22afa371a]]></appid><attach><![CDATA[]]></attach><body><![CDATA[会员充值]]></body><goods_tag><![CDATA[]]></goods_tag><mch_id><![CDATA[1504594711]]></mch_id><nonce_str><![CDATA[15968e01b53e42b893227ca42edf12a5]]></nonce_str><notify_url><![CDATA[http://wx.link-public.com//WServer/WxServer/WxPayResult.aspx]]></notify_url><openid><![CDATA[oNt8Y0uIBiThX48KWauequE4jkts]]></openid><out_trade_no><![CDATA[150459471120190403145944153]]></out_trade_no><sign><![CDATA[F86F77ADE9B1DF5916ABEF3AF54489C9]]></sign><spbill_create_ip><![CDATA[8.8.8.8]]></spbill_create_ip><time_expire><![CDATA[20190403150951]]></time_expire><time_start><![CDATA[20190403145951]]></time_start><total_fee>100</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2019-04-03 15:02:58.291 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxbb84b3b22afa371a]]></appid>
+<mch_id><![CDATA[1504594711]]></mch_id>
+<nonce_str><![CDATA[GQtzFf0WY1VOJn5I]]></nonce_str>
+<sign><![CDATA[A96403ACCAA1B23D74F4CE3F0CC1668E]]></sign>
+<result_code><![CDATA[FAIL]]></result_code>
+<err_code><![CDATA[SYSTEMERROR]]></err_code>
+<err_code_des><![CDATA[system error]]></err_code_des>
+</xml>

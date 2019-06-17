@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Msgs>
+  <!--全局参数-->
+  <Msg Code="Err_001">已操作成功!</Msg>
+  <Msg Code="Err_002">记录已存在，请检查!</Msg>
+  <Msg Code="Err_003">记录不存在，请检查！</Msg>
+  <Msg Code="Err_004">操作失败，请重试或联系管理员!</Msg>
+  <Msg Code="Err_005">请选择要操作的记录</Msg>
+  <Msg Code="Err_006">旧密码错误，请检查！</Msg>
+  <Msg Code="Err_007">错误数已超过5次,该账户已被锁定！</Msg>
+  <Msg Code="Err_146">菜品二维码已存在，请检查</Msg>
+
+  <Msg Code="PageOperateList">列表</Msg>
+  <Msg Code="PageOperateAdd">新增</Msg>
+  <Msg Code="PageOperateEdit">修改</Msg>
+  <Msg Code="PageOperateDetail">详细</Msg>
+
+  <!--功能设置-->
+  <Msg Code="FUN_001">『序号』不能为空</Msg>
+  <Msg Code="FUN_002">『序号』格式应为长度不超过4位的整数</Msg>
+  <Msg Code="FUN_003">『键』不能为空</Msg>
+  <Msg Code="FUN_004">『值』不能为空</Msg>
+  <Msg Code=" ">『描述』不能为空</Msg>
+
+  <!--后台用户-->
+  <Msg Code="admins_Menu">用户管理</Msg>
+  <Msg Code="admins_TName">用户信息</Msg>
+  <Msg Code="admins_Export">字段1 ,字段2</Msg>
+  <Msg Code="admins_202">用户名已存在，请重新输入!</Msg>
+  <Msg Code="admins_203">联系方式已经存在!</Msg>
+  <!--用户名-->
+  <Msg Code="admins_007">用户名不能为空!</Msg>
+  <Msg Code="admins_008">3-16位数字字母_组合!</Msg>
+  <!--密码-->
+  <Msg Code="admins_010">密码不能为空!</Msg>
+  <Msg Code="admins_011">密码格式不正确!</Msg>
+  <!--姓名-->
+  <Msg Code="admins_013">姓名不能为空!</Msg>
+  <!--手机号-->
+  <Msg Code="admins_017">手机号格式不正确!</Msg>
+  <!--备注-->
+  <!--验证码-->
+  <Msg Code="admins_028">验证码不能为空!</Msg>
+  <Msg Code="admins_029">验证码失效!</Msg>
+  <Msg Code="admins_031">您的帐号无效，请联系管理员！</Msg>
+  <Msg Code="admins_032">用户或密码错误！</Msg>
+  <Msg Code="admins_033">验证码不正确！</Msg>
+  <Msg Code="admins_040">密码已修改成功!</Msg>
+  <Msg Code="admins_041">原密码不正确，请重新输入!</Msg>
+  <!--登录日志信息-->
+  <Msg Code="admins_051">{0}于{1}登录连锁后台管理系统!</Msg>
+  <Msg Code="admins_961">"{0}删除id为{1}的用户管理信息";</Msg>
+
+  <!--角色信息-->
+  <Msg Code="admins_Menu">用户管理</Msg>
+  <Msg Code="admins_TName">角色信息</Msg>
+  <Msg Code="admins_Export">字段1,字段2</Msg>
+  <Msg Code="roles_030">名称已经存在，请重新填写!</Msg>
+  <Msg Code="roles_031">角色已被用户引用，不允许删除!</Msg>
+  <Msg Code="roles_961">"{0}删除id为{1}的角色管理信息"</Msg>
+
+  <!--语言信息表-->
+  <Msg Code="languages_Menu">语言信息表</Msg>
+  <Msg Code="languages_TName">语言信息表</Msg>
+  <Msg Code="languages_Export">字段1,字段2</Msg>
+  <Msg Code="languages_004">内容不能为空!</Msg>
+  <!--语言名称-->
+  <Msg Code="languages_007">内容不能为空!</Msg>
+  <!--代码-->
+
+
+  <!--省份信息表-->
+  <Msg Code="provinces_Menu">省份信息表</Msg>
+  <Msg Code="provinces_TName">省份信息表</Msg>
+  <Msg Code="provinces_Export">字段1,字段2</Msg>
+  <Msg Code="provinces_007">内容不能为空!</Msg>
+  <!--省名称-->
+  <Msg Code="provinces_010">内容不能为空!</Msg>
+  <!--城市字母-->
+  <Msg Code="provinces_011">格式不正确!</Msg>
+  <!--城市字母-->
+
+
+  <!--   start wx-->
+  <!--activice info-->
+  <Msg Code="WXbusactivity_Menu">活动信息</Msg>
+  <Msg Code="WXbusactivity_TName">活动信息</Msg>
+  <Msg Code="WXbusactivity_Export">字段1,字段2</Msg>
+  <Msg Code="WXbusactivity_004">内容不能为空!</Msg>
+  <!---->
+  <Msg Code="WXbusactivity_010">内容不能为空!</Msg>
+  <!---->
+  <Msg Code="WXbusactivity_013">内容不能为空!</Msg>
+  <!---->
+  <Msg Code="WXbusactivity_017">格式不正确!</Msg>
+
+  <!--   end wx-->
+
+  <!--语言信息表-->
+  <Msg Code="languages_Menu">语言信息表</Msg>
+  <Msg Code="languages_TName">语言信息表</Msg>
+  <Msg Code="languages_Export">字段1,字段2</Msg>
+
+  <!--添加菜谱-->
+  <Msg Code="melname_Name1">状态不正确</Msg>
+  <Msg Code="melname_Name2">编号已存在</Msg>
+  <Msg Code="melname_Name3">名称已存在</Msg>
+  <Msg Code="melname_Name4">编号不存在</Msg>
+  <Msg Code="melname_Name5">名称不存在</Msg>
+
+  <Msg Code="notdelete_001">做法信息已引用不可删除</Msg>
+  <Msg Code="nodelete_002">菜品类型信息已被引用不可删除</Msg>
+
+  <!--门店_套餐组别-->
+  <Msg Code="combogroup_Menu">门店_套餐组别</Msg>
+  <Msg Code="combogroup_TName">门店_套餐组别</Msg>
+  <Msg Code="combogroup_Export">字段1,字段2</Msg>
+  <Msg Code="combogroup_010">内容不能为空!</Msg>
+  <!--组别编号-->
+  <Msg Code="combogroup_013">内容不能为空!</Msg>
+  <!--组别名称-->
+
+  <Msg Code="E_existcodedutyrank">职务等级编号重复，请核对!</Msg>
+  <Msg Code="E_existnamedutyrank">职务等级名称重复，请核对!</Msg>
+  <Msg Code="E_existcodebyductdutyrank">所属职务已存在，请核对!</Msg>
+
+
+  <Msg Code="ED_DutyRankExist">职务已被员工职务等级引用，不可删除！</Msg>
+  <Msg Code="ED_EmployeeExist">职务已被员工信息引用，不可删除！</Msg>
+
+  <Msg Code="membercardrepeat">会员卡已配置过折扣方案，不可重新配置</Msg>
+  <Msg Code="tablemanrepeat">桌台信息已被引用，不可删除</Msg>
+  <Msg Code="E_mctcode01">类型编码已存在！</Msg>
+  <Msg Code="E_cnam01">类型名称已存在！</Msg>
+
+  <Msg Code="memcard_sigcardcodeempty">签单额度调整卡号不能为空！</Msg>
+  <Msg Code="memcard_sigcreditempty">签单额度调整金额应大于0！</Msg>
+  <Msg Code="memcard_errorstatus">会员卡“{0}”状态，不能进行刷卡操作！</Msg>
+  <Msg Code="memcard_errorvalidate">会员卡已过期，不能进行刷卡操作！</Msg>
+  <Msg Code="memcard_errornocardcode">会员卡号不存在！</Msg>
+  <Msg Code="memcard_errornotstocode">该卡不适用此门店！</Msg>
+  <Msg Code="memcard_creditpayerror">会员卡签单/挂账额度不足！</Msg>
+  <Msg Code="memcard_creditpaynon">没有会员卡签单/挂账额度刷卡权限！</Msg>
+  <Msg Code="memcard_cardpayerror">会员卡余额不足！</Msg>
+  <Msg Code="memcard_cardpayempty">会员卡卡号不能为空！</Msg>
+  <Msg Code="memcard_cardpaymoneycheck">会员卡刷卡金额应大于0！</Msg>
+  <Msg Code="admins_repwd">旧密码不正确</Msg>
+  <Msg Code="memcard_balanceno">卡号余额不足！</Msg>
+  <Msg Code="memcard_intno">账户积分不足！</Msg>
+  <Msg Code="memcard_signpaynon">没有签单权限！</Msg>
+  <Msg Code="memcard_creditpaynon">没有挂账权限！</Msg>
+  <Msg Code="memcard_creditpayerror">挂账/签单额度不足！</Msg>
+  <Msg Code="memcard_pcreditpayerror">主账户挂账/签单额度不足！</Msg>
+  <Msg Code="memcard_cardleveldelete">卡等级已被引用，不允许删除!</Msg>
+  <Msg Code="memprebatch_maxcard">单次批量发卡不能超过100张!</Msg>
+  <Msg Code="memprebatch_differentcard">开始和结束卡号不是同一批次，不允许批量发卡!</Msg>
+  <Msg Code="memprebatch_existscard">已存在预制卡号信息，请检查!</Msg>
+  <Msg Code="memprebatch_notcars">此号段没有非激活的卡信息，请检查!</Msg>1
+  <Msg Code="memprebatch_diffctype">此号段存在不同卡等级信息，请检查!</Msg>
+  <Msg Code="memcard_rechageerror">此卡非正常状态不允许充值操作</Msg>
+  <Msg Code="memcard_returnerror">此卡非正常状态不允许退卡操作</Msg>
+  <Msg Code="memcard_returnerror2">此卡类型不允许退卡操作</Msg>
+  <Msg Code="memcard_returnok">已作退卡处理，请留下收款账户信息，待财务核算后进行退款操作</Msg>
+  <Msg Code="choosetransfermem_placeholder">请选择过户会员"</Msg>
+  <Msg Code="members_mobexist">手机号码已存在，请核对会员信息！</Msg>
+  <Msg Code="members_idnoexist">证件号码已存在，请核对会员信息！</Msg>
+  <Msg Code="memcardadd_033">请输入手机号码或证件号码</Msg>
+  <Msg Code="e_cardexist">该卡已制卡，请核对</Msg>
+  <Msg Code="e_cardnotnull">卡号不能为空,请检查</Msg>
+  <Msg Code="memcard_normalstatus">卡号非正常状态或卡号不存在，请检查！</Msg>
+  <Msg Code="memcard_pnormalstatus">主卡号非正常状态或主卡号不存在，请检查！</Msg>
+
+  <Msg Code="E_memcard801">合并默认卡号非正常状态</Msg>
+  <Msg Code="E_memcardMS_error">该美食卡已退卡或非正常卡，请检查！</Msg>
+  <Msg Code="memcard_mergedifferent">卡等级不一致不允许做合并操作！</Msg>
+  <Msg Code="memcard_mergeone">单张会员卡无法进行合并操作！</Msg>
+  <Msg Code="memcard_mergenostatus">合并存在非正常状态的卡，请检查！</Msg>
+  <Msg Code="memcard_mergenocard">没有要合并的卡，请检查！</Msg>
+  <Msg Code="memcard_fail">此卡不存在或非未激活状态</Msg>
+  <Msg Code="memcard_rechageerror">此卡非正常状态不允许充值操作</Msg>
+  <Msg Code="memcard_activeerror">此卡非正常状态不允许激活操作</Msg>
+  <Msg Code="memcard_activeerror2">此卡系统卡号已存在，不能激活操作</Msg>
+  <Msg Code="memcard_returnok">已作退卡处理，请留下收款账户信息，待财务核算后进行退款操作</Msg>
+  <Msg Code="memcard_initialize_notemp">非员工卡不能初始化操作，请检查</Msg>
+  <Msg Code="memcard_initialize_status">此员工卡是正常卡不能初始化操作，请检查</Msg>
+  <!--手机验证码-->
+  <Msg Code="mobile_success">发送成功</Msg>
+  <Msg Code="mobile_fail">发送失败</Msg>
+  <Msg Code="mobile_vercode_success">校验成功</Msg>
+  <Msg Code="mobile_vercode_overdue">验证码已过期</Msg>
+  <Msg Code="mobile_vercode_error">验证码有误</Msg>
+
+  <Msg Code="memcard_err_001">卡号不存在</Msg>
+  <Msg Code="memcard_err_002">卡密码错误，请检查！</Msg>
+  <Msg Code="memcard_err_003">卡号不存在</Msg>
+  <Msg Code="memcard_err_004">密码为初始密码,建议修改密码！</Msg>
+  <Msg Code="memcard_err_005">旧密码错误，请检查！</Msg>
+  <Msg Code="memcard_IDNO">身份证格式不正确</Msg>
+  <!--设置排队-->
+  <Msg Code="setlineup_fail_001">最大人数及最小人数区间已存在</Msg>
+  <!--系统厂商授权信息-->
+  <Msg Code="ts_ManAuthorization_checkNo">该商户没有授权信息，请联系软件厂商!</Msg>
+  <Msg Code="ts_ManAuthorization_checkautaccount">该商户授权信息与厂商提供授权不一致，请联系软件厂商!</Msg>
+  <Msg Code="ts_ManAuthorization_checkCPU">该商户授权服务器主机硬件与初始注册不一致，请联系软件厂商!</Msg>
+</Msgs>

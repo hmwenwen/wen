@@ -1,0 +1,107 @@
+
+/********************2019/4/3 14:35:56********************/
+ErrorMessage:System.Data.SqlClient.SqlException (0x80131904): 用户 'cateringwx' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 XJWZCatering.SQL.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\Tool\SqlHelper.cs:行号 1137
+   在 XJWZCatering.SQL.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText) 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\Tool\SqlHelper.cs:行号 1116
+   在 XJWZCatering.SQL.SQLTool.ExecuteScalar(String commandText) 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\Tool\SQLTool.cs:行号 288
+   在 XJWZCatering.WServer.WxServer.WxPay.GetPayParams(Dictionary`2 dicPar) 位置 d:\转盘\trunk\09Code\XJWZWx\WServer\WxServer\WxPay.ashx.cs:行号 65
+ClientConnectionId:0d4a6563-4a09-4851-9a01-389ab36fbd18
+Error Number:18456,State:1,Class:14
+/**************************************************************/
+
+/********************2019/4/3 14:37:15********************/
+ErrorMessage:System.Data.SqlClient.SqlException (0x80131904): 用户 'cateringwx' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 XJWZCatering.SQL.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\Tool\SqlHelper.cs:行号 1137
+   在 XJWZCatering.SQL.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText) 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\Tool\SqlHelper.cs:行号 1116
+   在 XJWZCatering.SQL.SQLTool.ExecuteScalar(String commandText) 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\Tool\SQLTool.cs:行号 288
+   在 XJWZCatering.WServer.WxServer.WxPay.GetPayParams(Dictionary`2 dicPar) 位置 d:\转盘\trunk\09Code\XJWZWx\WServer\WxServer\WxPay.ashx.cs:行号 65
+ClientConnectionId:d3946923-73b0-4e0e-95c1-8d0625f25a15
+Error Number:18456,State:1,Class:14
+/**************************************************************/
+
+/********************2019/4/3 14:37:44********************/
+ErrorMessage:System.Data.SqlClient.SqlException (0x80131904): 用户 'cateringwx' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 XJWZCatering.SQL.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\Tool\SqlHelper.cs:行号 1137
+   在 XJWZCatering.SQL.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText) 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\Tool\SqlHelper.cs:行号 1116
+   在 XJWZCatering.SQL.SQLTool.ExecuteScalar(String commandText) 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\Tool\SQLTool.cs:行号 288
+   在 XJWZCatering.WServer.WxServer.WxPay.GetPayParams(Dictionary`2 dicPar) 位置 d:\转盘\trunk\09Code\XJWZWx\WServer\WxServer\WxPay.ashx.cs:行号 65
+ClientConnectionId:17c0376b-369a-4f8a-bb00-266beae81680
+Error Number:18456,State:1,Class:14
+/**************************************************************/
+
+/********************2019/4/3 14:43:05********************/
+ErrorMessage:WxPayAPI.WxPayException: UnifiedOrder response error!
+   在 WxPayAPI.JsApiPay.GetUnifiedOrderResult() 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\WxPayAPI\lib\JsApiPay.cs:行号 168
+   在 XJWZCatering.WServer.WxServer.WxPay.GetPayParams(Dictionary`2 dicPar) 位置 d:\转盘\trunk\09Code\XJWZWx\WServer\WxServer\WxPay.ashx.cs:行号 99
+/**************************************************************/
+
+/********************2019/4/3 14:43:30********************/
+ErrorMessage:WxPayAPI.WxPayException: UnifiedOrder response error!
+   在 WxPayAPI.JsApiPay.GetUnifiedOrderResult() 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\WxPayAPI\lib\JsApiPay.cs:行号 168
+   在 XJWZCatering.WServer.WxServer.WxPay.GetPayParams(Dictionary`2 dicPar) 位置 d:\转盘\trunk\09Code\XJWZWx\WServer\WxServer\WxPay.ashx.cs:行号 99
+/**************************************************************/
+
+/********************2019/4/3 14:44:07********************/
+Class       :JavaScriptObjectDeserializer
+Method      :DeserializeDictionary
+ErrorMessage:传入的对象无效，应为“:”或“}”。 (94): {"GUID":1,"USER_ID":"oNt8Y0uIBiThX48KWauequE4jkts","moneWxPay.ashx?actionname=getpayparams,{"GUID":1,"USER_ID":"oUXbn1fqx8z-cihR02TRrVKiFKQI","money":"1","stocode":"","orderno":"","type":"3","zkje":"", "zkcode":"", "zkname":"", "yhje":"", "yhcode":"", "yhname":"", "strJson":""}
+StackTrace :   在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeDictionary(Int32 depth)
+   在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.DeserializeInternal(Int32 depth)
+   在 System.Web.Script.Serialization.JavaScriptObjectDeserializer.BasicDeserialize(String input, Int32 depthLimit, JavaScriptSerializer serializer)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.Deserialize(JavaScriptSerializer serializer, String input, Type type, Int32 depthLimit)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.DeserializeObject(String input)
+   在 XJWZCatering.WServices.ServiceBase.GetParameters() 位置 d:\转盘\trunk\09Code\XJWZWx\WServer\WxServer\ServiceBase.cs:行号 150
+FullName :System.ArgumentException
+TargetSite  :System.Collections.Generic.IDictionary`2[System.String,System.Object] DeserializeDictionary(Int32)
+/**************************************************************/
+
+/********************2019/4/3 14:45:51********************/
+ErrorMessage:WxPayAPI.WxPayException: UnifiedOrder response error!
+   在 WxPayAPI.JsApiPay.GetUnifiedOrderResult() 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\WxPayAPI\lib\JsApiPay.cs:行号 168
+   在 XJWZCatering.WServer.WxServer.WxPay.GetPayParams(Dictionary`2 dicPar) 位置 d:\转盘\trunk\09Code\XJWZWx\WServer\WxServer\WxPay.ashx.cs:行号 99
+/**************************************************************/
+
+/********************2019/4/3 15:03:40********************/
+ErrorMessage:WxPayAPI.WxPayException: UnifiedOrder response error!
+   在 WxPayAPI.JsApiPay.GetUnifiedOrderResult() 位置 d:\转盘\trunk\09Code\XJWZWx\XJWZWx\WxPayAPI\lib\JsApiPay.cs:行号 168
+   在 XJWZCatering.WServer.WxServer.WxPay.GetPayParams(Dictionary`2 dicPar) 位置 d:\转盘\trunk\09Code\XJWZWx\WServer\WxServer\WxPay.ashx.cs:行号 99
+/**************************************************************/

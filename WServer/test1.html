@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+
+        Request = {
+            QueryString: function (item) {
+                var svalue = location.search.match(new RegExp("[\?\&]" + item + "=([^\&]*)(\&?)", "i"));
+                return svalue ? svalue[1] : svalue;
+            }
+        }
+
+        $(function () {
+            var openid = window.localStorage.getItem("Lpopenid");
+            if (openid == "" || openid == null || openid == undefined) {
+                var code = Request.QueryString("Code");
+                if (code == null) {
+                    var rurl = location.href;
+                    window.location.href = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxe6edcceb51db5a5e&redirect_uri=" + window.location.href + "&response_type=code&scope=snsapi_base&state=2018#wechat_redirect";
+                } else {
+                    $.ajax({
+                        type: 'POST',
+                        url: "http://wx.link-public.com/WServer/WxServer/WxTools.ashx?FunName=getOpenid&code=" + code,
+                        dataType: 'application/json',
+                        success: function (data) {
+                            alert("openid:" + data);
+                        }
+                    });
+                }
+            }
+        })
+    </script>
+</head>
+<body>
+</body>
+</html>
